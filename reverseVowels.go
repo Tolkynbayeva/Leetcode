@@ -1,3 +1,5 @@
+package main
+
 func reverseVowels(s string) string {
 	runes := []rune(s)
 	start := 0
