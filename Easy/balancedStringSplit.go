@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func balancedStringSplit(s string) int {
 	countL := 0
 	balance := 0
@@ -18,8 +16,8 @@ func balancedStringSplit(s string) int {
 	return balance
 }
 
-func main() {
-	fmt.Println(balancedStringSplit("RLRRLLRLRL")) //4
-	fmt.Println(balancedStringSplit("RLRRRLLRLL")) //2
-	fmt.Println(balancedStringSplit("LLLLRRRR"))   //1
-}
+// func main() {
+// 	fmt.Println(balancedStringSplit("RLRRLLRLRL")) //4
+// 	fmt.Println(balancedStringSplit("RLRRRLLRLL")) //2
+// 	fmt.Println(balancedStringSplit("LLLLRRRR"))   //1
+// }

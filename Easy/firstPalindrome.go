@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func firstPalindrome(words []string) string {
 	palindromic := ""
 	reverse := ""
@@ -29,8 +25,8 @@ func firstPalindrome(words []string) string {
 	return palindromic
 }
 
-func main() {
-	fmt.Println(firstPalindrome([]string{"abc", "car", "ada", "racecar", "cool"})) // "ada"
-	fmt.Println(firstPalindrome([]string{"notapalindrome", "racecar"}))            // "racecar"
-	fmt.Println(firstPalindrome([]string{"def", "ghi"}))                           // ""
-}
+// func main() {
+// 	fmt.Println(firstPalindrome([]string{"abc", "car", "ada", "racecar", "cool"})) // "ada"
+// 	fmt.Println(firstPalindrome([]string{"notapalindrome", "racecar"}))            // "racecar"
+// 	fmt.Println(firstPalindrome([]string{"def", "ghi"}))                           // ""
+// }

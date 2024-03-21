@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func numJewelsInStones(jewels string, stones string) int {
 	count := 0
 	for _, chJewels := range jewels {
@@ -15,7 +13,7 @@ func numJewelsInStones(jewels string, stones string) int {
 	return count
 }
 
-func main() {
-	fmt.Println(numJewelsInStones("aA", "aAAbbbb"))
-	fmt.Println(numJewelsInStones("z", "ZZ"))
-}
+// func main() {
+// 	fmt.Println(numJewelsInStones("aA", "aAAbbbb"))
+// 	fmt.Println(numJewelsInStones("z", "ZZ"))
+// }

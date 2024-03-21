@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -20,7 +19,7 @@ func reverseWords(s string) string {
 	return result
 }
 
-func main() {
-	fmt.Println(reverseWords("Let's take LeetCode contest"))
-	fmt.Println(reverseWords("Mr Ding"))
-}
+// func main() {
+// 	fmt.Println(reverseWords("Let's take LeetCode contest"))
+// 	fmt.Println(reverseWords("Mr Ding"))
+// }

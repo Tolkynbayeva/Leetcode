@@ -44,6 +44,6 @@ func sortSentence(s string) string {
 	return final
 }
 
-func main() {
-	fmt.Print(sortSentence("is2 sentence4 This1 a3"))
-}
+// func main() {
+// 	fmt.Print(sortSentence("is2 sentence4 This1 a3"))
+// }
