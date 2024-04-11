@@ -1,17 +1,16 @@
 package main
 
 func isPerfectSquare(num int) bool {
-
-	if num < 0 {
-		return false
-	} else if num == 0 || num == 1 {
-		return true
-	}
-
-	for i := 0; i < num; i++ {
-		if (i * i) == num {
+	l := 1
+	r := num
+	for l <= r {
+		mid := (l + r) / 2
+		if mid*mid == num {
 			return true
-			break
+		} else if mid*mid < num {
+			l = mid + 1
+		} else {
+			r = mid - 1
 		}
 	}
 	return false
