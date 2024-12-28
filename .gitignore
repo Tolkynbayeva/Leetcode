@@ -1,11 +1,127 @@
-node_modules/
-dist/
-build/
-*.log
-npm-debug.log*
-.env*
+# --- IDE файлы ---
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# --- ОС файлы ---
+# Mac/OSX
 .DS_Store
+
+# Windows
 Thumbs.db
-.vscode/
-package-lock.json
-yarn.lock
+ehthumbs.db
+Desktop.ini
+
+# --- Общие файлы ---
+# Конфиденциальные файлы
+**/credentials.json
+**/client_secrets.json
+**/client_secret.json
+*creds*
+*.dat
+*password*
+*.httr-oauth*
+*.jks
+*.key
+*.pem
+
+# --- Node.js ---
+node_modules/
+creds.js
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+MANIFEST
+*.mo
+*.pot
+
+# pipenv
+Pipfile.lock
+__pypackages__/
+
+# pyenv
+.python-version
+
+# --- Flask ---
+instance/
+.webassets-cache
+
+# --- Django ---
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints
+
+# --- Flutter/Dart ---
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/generated_plugin_registrant.dart
+.packages
+.pub-preload-cache/
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+
+# --- Android ---
+**/android/**/gradle-wrapper.jar
+.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+
+# --- iOS/XCode ---
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/Pods/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/ephemeral
+
+# --- Windows ---
+**/windows/flutter/ephemeral/
+**/windows/flutter/generated_plugin_registrant.*
+
+# --- Linux ---
+**/linux/flutter/ephemeral/
+**/linux/flutter/generated_plugin_registrant.*
+
+# --- macOS ---
+**/Flutter/ephemeral/
+**/Pods/
+
+# --- Покрытие тестов и другие артефакты ---
+coverage/
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
